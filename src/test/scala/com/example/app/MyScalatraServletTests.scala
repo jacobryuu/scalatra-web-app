@@ -12,4 +12,6 @@ class MyScalatraServletTests extends ScalatraFunSuite {
       status should equal(200)
     }
   }
+
+  override def header = ???
 }
